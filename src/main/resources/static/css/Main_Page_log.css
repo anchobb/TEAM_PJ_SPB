@@ -131,7 +131,7 @@
 
 .section2>aside:nth-child(1) {
     color: rgb(192, 57, 43);
-    font-weight: 700;
+    font-weight: 800;
     font-size: 2.3rem;
     text-align: center;
     width: 450px;
@@ -186,7 +186,6 @@
     height: 50px;
     line-height: 50px;
     position: relative;
-    font-weight: 800;
 }
 
 .section2>aside>.top10>img {
@@ -201,10 +200,13 @@
 
 .section2>aside>.top10>span:nth-child(1) {
     font-size: 1.4rem;
+    font-weight:800;
 }
 
 .section2>aside>.top10>span:nth-child(2) {
     font-size: 1.7rem;
+    font-weight:800;
+    text-shadow: 2px 2px 2px black;
 }
 
 .section2>aside>table {
@@ -248,7 +250,7 @@ th {
     padding: 30px;
     margin: 20px 10px;
     color: rgb(192, 57, 43);
-    font-weight: 700;
+    font-weight: 800;
     font-size: 2.3rem;
     text-align: center;
     border: 1px solid lightgray;

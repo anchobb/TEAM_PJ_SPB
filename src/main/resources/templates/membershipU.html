@@ -113,8 +113,8 @@
     <section class="ms_pay">
         <span class="title">멤버십 가입</span>
         <div class="myMembership" th:if="${myMembership!=null }">
-            <span th:text="|~ ${myMembership.enddate}|" style="font-size:20px; color:gray;"></span><br/>
-            <span th:text="${myMembership.membershipcode}" style="font-size:27px; color: rgb(192, 57, 43);"></span>을 구독중입니다!
+            <span th:text="|~ ${myMembership.enddate}|" style="font-size:18px; color:gray;"></span><br/>
+            <span th:text="${myMembership.membershipcode}" style="font-size:25px; color: rgb(192, 57, 43);"></span>을 구독중입니다!
             <a class="term_btn" th:data-username="${myMembership.username}" onclick="terminateMembership()" type="button">해지</a>
         </div>
         <div>
