@@ -24,9 +24,9 @@ public class MusicService {
     @Autowired
     MusicRepository musicRepository;
 
-    private String jdbcUrl = "jdbc:mysql://localhost:3306/musicdb";
-    private String username = "root";
-    private String password = "1234";
+    private String jdbcUrl = "jdbc:mysql://13.125.178.199:3306/musicdb";
+    private String username = "dbconn";
+    private String password = "Zhfldk11!";
 
     @Transactional(rollbackFor = SQLException.class)
     public MusicDto connect(String title) {

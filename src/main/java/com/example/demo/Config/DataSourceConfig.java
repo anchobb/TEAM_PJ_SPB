@@ -37,9 +37,9 @@ public class DataSourceConfig {
 	{
 		HikariDataSource dataSource = new HikariDataSource();
 		dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-		dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/musicdb");
-		dataSource.setUsername("root");
-		dataSource.setPassword("1234");
+		dataSource.setJdbcUrl("jdbc:mysql://13.125.178.199:3306/musicdb");
+		dataSource.setUsername("dbconn");
+		dataSource.setPassword("Zhfldk11!");
 		return dataSource;
 	}
 
