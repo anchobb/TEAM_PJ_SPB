@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>WATERMELON-QnA</title>
 
     <!--  BS5  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -48,7 +48,7 @@
             </form>
             <ul>
                 <li><a href="/membership"
-                       style="color:rgb(92, 115, 6); font-family: 'SDSamliphopangche_Basic'; font-size: 19px;"><img
+                       style="color:rgb(92, 115, 6); font-family: 'Nanum Gothic', sans-serif; font-weight: 800; font-size: 19px;"><img
                         src="/images/add.png" alt=""> 멤버십가입</a></li>
                 <li><a href=""><img src="/images/english.png" alt="">ENGLISH</a></li>
             </ul>
@@ -170,10 +170,10 @@
             <div class="button">
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end" aria-label="Basic outlined example">
                     <a type="button" class="btn btn-outline-danger btn-sm update_btn"
-                       style="width:80px; margin-top:10px;" th:href="@{/qna/update(no=${qnaDto.no})}">수정</a>
+                       style="width:80px; margin-top:10px; font-weight:800;" th:href="@{/qna/update(no=${qnaDto.no})}">수정</a>
                     <a type="button" class="btn btn-outline-danger btn-sm delete_btn"
-                       style="width:80px; margin-top:10px;" th:data-no="${qnaDto.no}">삭제</a>
-                    <a type="button" class="btn btn-outline-danger btn-sm" style="width:80px; margin-top:10px;"
+                       style="width:80px; margin-top:10px; font-weight:800;" th:data-no="${qnaDto.no}">삭제</a>
+                    <a type="button" class="btn btn-outline-danger btn-sm" style="width:80px; margin-top:10px; font-weight:800;"
                        th:href="@{/qna/list(pageNo=${pageNo})}">이전</a>
                 </div>
             </div>

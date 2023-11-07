@@ -7,7 +7,7 @@
 
 .section1>aside {
     color: rgb(192, 57, 43);
-    font-weight: 700;
+    font-weight: 800;
     width: 900px;
     font-size: 2.5rem;
     margin-top: 15px;
@@ -124,6 +124,7 @@
 .section2>aside {
     padding: 20px;
     margin: 20px 10px;
+    font-weight: 800;
 }
 
 .section2>aside:nth-child(1) {
@@ -183,6 +184,7 @@
     height: 50px;
     line-height: 50px;
     position: relative;
+    font-weight: 800;
 }
 
 .section2>aside>.top10>img {
