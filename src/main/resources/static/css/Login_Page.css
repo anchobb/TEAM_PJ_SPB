@@ -100,8 +100,8 @@ li{
     .login .loginmenu ul li:nth-child(2)::after {
         content: "";
         position: absolute;
-        left: -10px;
-        top: 1px;
+        left: -5px;
+        top: 5px;
         height: 16px;
         width: 1.2px;
         background: #111;
@@ -109,7 +109,7 @@ li{
     }
 
     .login .loginmenu ul li a {
-        font-size: 14px;
+        font-size: 13px;
         color: #111;
     }
 
