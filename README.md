@@ -102,7 +102,6 @@ https://shields.io/
 |END POINT|METHOD|DESCRIPTION|
 |------|---|---|
 
-메인관련 end point <br/>
 | /index     |  get  |  메인 페이지          | 
 | /indexlog  |  get  |  로그인 후 메인 페이지 | 
 
