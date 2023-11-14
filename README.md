@@ -103,8 +103,8 @@ https://shields.io/
 |------|---|---|
 
 메인관련 end point <br/>
-| /index     |  get  |  메인 페이지          | <br/>
-| /indexlog  |  get  |  로그인 후 메인 페이지 | <br/>
+| /index     |  get  |  메인 페이지          | 
+| /indexlog  |  get  |  로그인 후 메인 페이지 | 
 
 노래관련 end point <br/>
 | /song    |  get  |  노래 재생 기능            | <br/>
